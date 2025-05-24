@@ -11,11 +11,11 @@ ros2 run cpp_pubsub listener
 
 robot_control
 ===============
-# Для запуска алгоритма жука
+#Для запуска алгоритма жука
 ТЕРМИНАЛ 1:
 ros2 launch robot_control bug.launch.py
 
-# Для запуска алгоритма движения вдоль стены
+#Для запуска алгоритма движения вдоль стены
 ТЕРМИНАЛ 1:
 ros2 launch robot_control wall.launch.py
 
