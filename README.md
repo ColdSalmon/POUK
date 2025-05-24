@@ -53,17 +53,22 @@ patrol_bot
 
 ТЕРМИНАЛ 1:
 sr1
+
 roscore
 
 ТЕРМИНАЛ 2:
 sr1
+
 sr2
+
 ros2 run ros1_bridge dynamic_bridge
 
 ТЕРМИНАЛ 3:
 sr1 
+
 roslaunch navigation navi.launch
 
 ТЕРМИНАЛ 4:
 sr2
+
 ros2 run patrol_bot patrol_bot_node
